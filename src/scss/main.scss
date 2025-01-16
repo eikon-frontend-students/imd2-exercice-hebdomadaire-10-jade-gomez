@@ -12,3 +12,19 @@ img,
 video {
   display: block;
 }
+
+body {
+  background-color: #c4d2f5;
+}
+.player {
+  display: flex;
+  width: 440px;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  box-shadow: 0px 0px 0px 20px rgba(255, 254, 254, 0.15);
+}
