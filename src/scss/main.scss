@@ -16,6 +16,7 @@ video {
 body {
   background-color: #c4d2f5;
   font-family: Inter;
+  padding: 100px;
 }
 .player {
   display: flex;
@@ -72,7 +73,7 @@ body {
   background: var(--purple, #e783bc);
   border-radius: 3px 0px 0px 3px;
 }
-.player-button.play {
+.player-button {
   display: flex;
   width: 74px;
   height: 74px;
@@ -85,4 +86,7 @@ body {
   font-family: "Font Awesome 6 Free";
   font-size: 20px;
   font-weight: 900;
+}
+audio {
+  display: none;
 }
