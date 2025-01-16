@@ -52,3 +52,9 @@ body {
   gap: 15px;
   align-self: stretch;
 }
+
+.player-time {
+  color: var(--gray, #909090);
+  font-size: 15px;
+  font-weight: 700;
+}
